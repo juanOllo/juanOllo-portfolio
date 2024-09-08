@@ -43,12 +43,15 @@
       <div id="welcome-section">
         <div class="flag">
           <div class="colors blue top-color"></div>
-          <div class="colors white"></div>
+          <div class="colors white">
+            <div class="sun"></div>
+          </div>
           <div class="colors blue bottom-color"></div>
         </div>
         <div class="tecnologias">
           <h2>Tecnologias que manejo</h2>
-          <img src="https://as2.ftcdn.net/v2/jpg/05/26/84/51/1000_F_526845142_2HDezW65o5jJqyvfpOj4AGQCd8A9GXfu.jpg" />
+          <!-- <img src="https://as2.ftcdn.net/v2/jpg/05/26/84/51/1000_F_526845142_2HDezW65o5jJqyvfpOj4AGQCd8A9GXfu.jpg" /> -->
+          <img src="./imgs/17-171719_html-css-js-icons-hd-png-download.png" />
         </div>
         <div class="introduccion">
           <h1>Bienvenido a mi portafolio</h1>
@@ -60,7 +63,7 @@
       <div id="projects">
         <div class="separator"></div>
         <div class="project-tile">
-          <h1>Proyectos:</h1>
+          <h1>PROYECTOS:</h1>
           <a class="projecto nro1" href="" target="_blank">
             <!-- <h1>proyecto 1</h1> -->
             <img class="project-cap" src="https://pbs.twimg.com/media/GWWP2IbWIAIsbEu?format=jpg&name=small">
@@ -68,8 +71,12 @@
             <p>Juego desarrollado en lenguaje C (No terminado)</p>
             <img class="project-icon" src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg">
           </a>
-          <a class="projecto nro2" href="" target="_blank">
-            <h1>proyecto 2</h1>
+          <a class="projecto nro2" href="https://juanollo.github.io/Comic-Reader/" target="_blank">
+            <!-- <h1>proyecto 2</h1> -->
+            <img class="project-cap" src="./imgs/Screenshot 2024-09-08 at 13-41-46 Comic Reader.png">
+            <h4>Lector de comic</h4>
+            <p>Lector de comic cuadro por cuadro</p>
+            <img class="project-icon" src="./imgs/tecnologias sin indice.png">
           </a>
           <a class="projecto nro3" href="" target="_blank">
             <h1>proyecto 3</h1>
@@ -77,21 +84,33 @@
         </div>
       </div>
       <div id="contact">
-        <div class="separator"></div>
+        <!-- <div class="separator"></div> -->
         <div class="contact-wrap">
           <h1>Trabajemos juntos!!</h1>
-          <span class="yahoo">
-            <img class="yahoo-img" src="https://cdn-icons-png.flaticon.com/512/179/179345.png">
+          <h2 id="mymail"></h2>
+          <div class="contact-icons">
+            <a id="mail">
+              <img class="yahoo-img" src="./imgs/mail icon 2.png">
+            </a>
+            <!-- <a id="mail">
+              <img class="yahoo-img" src="https://cdn-icons-png.flaticon.com/512/179/179345.png">
+            </a> -->
+            <a id="profile-link" href="https://www.linkedin.com/in/juan-pablo-ollo-109847324/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/juanOllo" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+            </a>
+          </div>
+          <!-- <span class="yahoo"> -->
             <!-- <h2>juan_ollo@yahoo.com</h2> -->
-            <a href= "mailto: juan_ollo@yahoo.com"><h2>juan_ollo@yahoo.com</h2></a>
-          </span>
-          <p>or</p>
-          <a id="profile-link" href="https://www.linkedin.com/in/juan-pablo-ollo-109847324/" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
+            <!-- <a href= "mailto: juan_ollo@yahoo.com"><h2>juan_ollo@yahoo.com</h2></a> -->
+          <!-- </span> -->
+          <!-- <p>or</p> -->
         </div>
       </div>
     </main>
     <footer id="footer"></footer>
+    <script src="./script.js"></script>
   </body>
 </html>
